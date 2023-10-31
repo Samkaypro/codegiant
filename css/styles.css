@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #f5f5f5, #e2e2e2); /* Subtle gradient background */
     margin: 0;
     display: flex;
     justify-content: center;
@@ -9,24 +9,28 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background: linear-gradient(180deg, #ffffff, #f0f0f0); /* Container gradient background */
     width: 400px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Slight box shadow */
 }
 
 .tabs {
     display: flex;
     justify-content: space-between;
-    background-color: #333;
+    background: linear-gradient(135deg, #794cec, #01204c); /* Tabs gradient background */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px 0;
 }
 
 .tab-btn {
-    background: none;
+    background: linear-gradient(135deg, #794cec, #01204c); /* Tab button gradient background */
     border: none;
     color: #fff;
     padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -46,6 +50,7 @@ body {
 h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #01204c;
 }
 
 form {
@@ -55,20 +60,25 @@ form {
 
 input {
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+input::placeholder {
+    color: #555; /* Placeholder text color */
+}
+
 button {
-    background-color: #333;
+    background: linear-gradient(135deg, #794cec, #01204c); /* Button gradient background */
     color: #fff;
-    padding: 10px;
+    padding: 12px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #555;
+    background: linear-gradient(135deg, #01204c, #794cec); /* Button hover gradient effect */
 }
