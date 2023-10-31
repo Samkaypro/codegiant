@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #f5f5f5, #e2e2e2); /* Subtle gradient background */
+    background-image: url('codegianyts.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -19,14 +22,14 @@ body {
 .tabs {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(135deg, #794cec, #01204c); /* Tabs gradient background */
+    background: linear-gradient(135deg, #87CEEB, #00BFFF); /* Tabs gradient background */
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     padding: 10px 0;
 }
 
 .tab-btn {
-    background: linear-gradient(135deg, #794cec, #01204c); /* Tab button gradient background */
+    background: linear-gradient(135deg, #87CEEB, #00BFFF); /* Tab button gradient background */
     border: none;
     color: #fff;
     padding: 10px 20px;
@@ -50,7 +53,7 @@ body {
 h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #01204c;
+    color: #00BFFF;
 }
 
 form {
@@ -70,7 +73,7 @@ input::placeholder {
 }
 
 button {
-    background: linear-gradient(135deg, #794cec, #01204c); /* Button gradient background */
+    background: linear-gradient(135deg, #87CEEB, #00BFFF); /* Button gradient background */
     color: #fff;
     padding: 12px;
     border: none;
@@ -80,5 +83,5 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(135deg, #01204c, #794cec); /* Button hover gradient effect */
+    background: linear-gradient(135deg, #00BFFF, #87CEEB); /* Button hover gradient effect */
 }
